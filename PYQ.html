@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JEE PYQs</title>
+   
+    
+    <link rel="stylesheet" href="PYQ.css">
+</head>
+<body>
+    <div class="container">
+        <h2>JEE Previous Year Papers</h2>
+        <select id="exam">
+            <option value="">Select Exam</option>
+            <option value="mains">JEE Mains</option>
+            <option value="advanced">JEE Advanced</option>
+        </select>
+        <select id="year">
+            <option value="">Select Year</option>
+            <option value="2025">2025</option>
+            <option value="2024">2024</option>
+            <option value="2023">2023</option>
+            <option value="2022">2022</option>
+            <option value="2021">2021</option>
+        </select>
+        <button class="btn" onclick="showPapers()">View Papers</button>
+        <div id="paperLinks">
+            <h3>Available Papers:</h3>
+            <div id="linksList"></div>
+        </div>
+    </div>
+    <script src="PYQ.js"></script>
+</body>
+</html>
